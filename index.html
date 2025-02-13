@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atomic Theory Project</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="modern-styles.css">
+	 <link rel="icon" href="chem.ico" type="image/x-icon">
+</head>
+<body>
+    <header>
+        <h1>Atomic Theory Project</h1>
+        <p>Explore the evolution of atomic theory</p>
+    </header>
+    <main class="container">
+        <section>
+            <button class="toggle-button" onclick="toggleContent('dalton')">Dalton's Atomic Theory</button>
+            <div id="dalton" class="content">
+                <h3>Explanation</h3>
+				<p>John Dalton was the creator of Dalton's atomic theory and he created it in 1803. Main Ideas of Dalton's Atomic Theory       Elements are composed of small, indivisible units known as atoms.       Atoms of the same element are identical, while atoms of different elements have unique characteristics.       Atoms cannot be created or destroyed in chemical processes.       Compounds are produced when atoms of different elements combine in fixed, simple ratios to form molecules.</p>
+                <h3>Connections/Evolution</h3>
+                <p>How the Plum Pudding Model Came to Be 
+				<p>Long ago, people thought atoms were the smallest things in the universe that couldn’t be broken down further. This idea came from Dalton and early scientists who thought that everything was made of tiny particles called elements, which had different types but couldn’t be divided. His idea lasted for a while, but later experiments showed that atoms are made of even smaller things. Dalton's ideas were important for building modern atomic theory. Both J.J. Thomson and John Dalton shared the belief that each element is made up of only one kind of atom unique to that element </p>
+                <img src="images/dalton.jpg" alt="Dalton's Atomic Theory Model">
+            </div>
+        </section>
+        <section>
+            <button class="toggle-button" onclick="toggleContent('plumPudding')">Plum Pudding Model</button>
+            <div id="plumPudding" class="content">
+                <h3>Explanation</h3>
+				<p>The Plum Pudding Model, proposed by J.J. Thomson in 1094, describes the atom as a sphere of positive charge with electrons embedded like raisins in a pudding.</p>
+                <h3>Connections/Evolution</h3>
+                <p>This model refined Dalton’s idea by introducing the electron, but it was later replaced by Rutherford's nuclear model.</p>
+                <img src="images/plum.jpeg" alt="Plum Pudding Model">
+            </div>
+        </section>
+        <section>
+            <button class="toggle-button" onclick="toggleContent('planetary')">Planetary Model</button>
+            <div id="planetary" class="content">
+                <h3>Explanation</h3>
+				<p> The model was created by Ernest Rutherford and Niels Bohrs in 1911. Ernest Rutherford and Niels Bohrs Planetary Model describes the atom with a dense central nucleus surrounded by electrons orbiting like planets around the sun.</p>
+                <h3>Connections/Evolution</h3>
+                <p>Rutherford’s model came after the Plum Pudding Model, disproving it with his gold foil experiment, but it couldn’t explain atomic stability.</p>
+                <img src="images/planetary.png" alt="Planetary Model">
+            </div>
+        </section>
+        <section>
+            <button class="toggle-button" onclick="toggleContent('bohr')">Bohr's Model</button>
+            <div id="bohr" class="content">
+                <h3>Explanation</h3>
+				<p> The model was created by Neils Bohrs in 1913. The Bohr model explains how electrons move around the nucleus in fixed paths called orbits or energy levels. Each orbit has a specific amount of energy, and an electron stays at that energy level unless it moves to a different orbit. The ground state is the lowest energy level, where the electron is closest to the nucleus. Orbits farther from the nucleus have higher energy. </p>
+                <h3>Connections/Evolution</h3>
+                <p>Bohr's model improved Rutherford's by explaining how electrons move. Rutherford thought electrons were like planets orbiting the sun (heliocentrism) but couldn't say why they didn't fall into the nucleus. Bohr solved this by saying that electrons move in fixed energy levels around the nucleus. They can jump between these levels by gaining or losing energy, but they can't exist in between. This helped explain why atoms release or absorb light in certain patterns</p>
+                <img src="images/bohr.png" alt="Bohr's Model">
+            </div>
+        </section>
+        <section>
+            <button class="toggle-button" onclick="toggleContent('schrodinger')">Schrödinger's Equation</button>
+            <div id="schrodinger" class="content">
+                <h3>Explanation</h3>
+				<p> This equation was created by Erwin Schrodinger in 1926. Schrodinger's equation is an important part of quantum mechanics that describes how particles like electrons behave. Instead of treating particles as tiny balls in fixed positions, it shows that they act like waves with a range of possible locations. This wave like behavior is captured by something called the wave function. The wave function tells us the probability of finding the particle in a specific place. When you square this wave function, you get the probability. </p>
+                <h3>Connections/Evolution</h3>
+                <p>Bohr’s model is simple but doesn’t explain all the details, like different orbitals or the patterns of light atoms produce. It mainly works for hydrogen, which has only one electron. 
+
+Schrodinger’s wave function gives a better picture. It shows different solutions that describe the electron’s energy, position, and size. The wave function also explains how electrons can be in different orbitals, each with its own energy and shape, giving a clearer view of how electrons behave .</p>
+                <img src="images/schrodingers equation.png" alt="Schrödinger's Equation">
+            </div>
+        </section>
+        <section>
+            <button class="toggle-button" onclick="toggleContent('standardModel')">The Standard Model of Particle Physics</button>
+            <div id="standardModel" class="content">
+                <h3>Explanation</h3>
+				<p>The model was created by many different talented scientists. It was developed in the 1970s to 2012 but used info from the past. Key Parts:       Particles:           Quarks: Make up protons and neutrons.           Leptons: Includes electrons and neutrinos.           Bosons: Mediate forces, like photons for light and gluons for the strong force.           Higgs Boson: Helps explain why particles have mass.   This model is quite important for understanding how the universe works on a basic level, but it doesn’t explain things like gravity or dark matter</p>
+                <h3>Connections/Evolution</h3>
+                <p>The Standard Model was built off of all the other models mentioned on this website. It had a guided path from everybody else</p>
+                <img src="images/standard model.png" alt="The Standard Model of Particle Physics">
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>Website built on notepad++ using HTML,CSS, AND JAVASCRIPT CREATED BY MANAV SANGHERA</p>
+    </footer>
+    <script src="modern-script.js"></script>
+</body>
+</html>
